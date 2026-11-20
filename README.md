@@ -34,7 +34,4 @@ Rezultat: 12 * 4 = 48
 ```
 
 ## Autor
-Cernopolc Adriana, grupa C-P-253-11
-
-## Licență
-Proiectul este distribuit sub licența MIT (vezi fișierul LICENSE).
+Cernopolc Adriana C-P-253-11
