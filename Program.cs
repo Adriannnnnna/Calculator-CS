@@ -72,7 +72,10 @@ namespace Calculator_CS
                         Afiseaza(a, op, b, a * b);
                         break;
                     case "/":
-                        Afiseaza(a, op, b, a / b);
+                        if (b == 0)
+                            Console.WriteLine("Eroare: impartirea la zero este imposibila!");
+                        else
+                            Afiseaza(a, op, b, a / b);
                         break;
                 }
 
