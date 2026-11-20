@@ -12,7 +12,7 @@ Aplicație consolă în C# care efectuează cele 4 operații aritmetice: adunare
 ## Cum se rulează
 1. Clonați repository-ul:
    ```
-   git clone https://github.com/utilizator/Calculator-CS.git
+   git clone https://github.com/Adriannnnnna/Calculator-CS.git
    ```
 2. Intrați în folder: `cd Calculator-CS`
 3. Rulați comanda: `dotnet run`
