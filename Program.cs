@@ -27,14 +27,14 @@ namespace Calculator_CS
             }
         }
 
-        // Citeste operatia pana cand este una dintre cele permise
+        // Citeste operatia pana cand este una dintre cele 4 permise
         static string CitesteOperatia()
         {
             while (true)
             {
-                Console.Write("Operatia (+, -): ");
+                Console.Write("Operatia (+, -, *, /): ");
                 string op = (Console.ReadLine() ?? "").Trim();
-                if (op == "+" || op == "-")
+                if (op == "+" || op == "-" || op == "*" || op == "/")
                     return op;
                 Console.WriteLine("Eroare: operatie necunoscuta.");
             }
@@ -67,6 +67,12 @@ namespace Calculator_CS
                         break;
                     case "-":
                         Afiseaza(a, op, b, a - b);
+                        break;
+                    case "*":
+                        Afiseaza(a, op, b, a * b);
+                        break;
+                    case "/":
+                        Afiseaza(a, op, b, a / b);
                         break;
                 }
 
